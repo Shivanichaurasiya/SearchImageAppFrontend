@@ -11,7 +11,7 @@
       }
 
       try {
-        const response = await fetch(`https://searchimageappbackend.onrender.com/api/search-images?query=${query}`);
+        const response = await fetch(`https://searchimageappbackend-2.onrender.com/api/search-images?query=${query}`);
         const data = await response.json();
 
         if (data.results.length > 0) {
